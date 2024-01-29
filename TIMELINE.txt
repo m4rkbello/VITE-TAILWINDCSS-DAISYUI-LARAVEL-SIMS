@@ -1,0 +1,9 @@
+1. CREATE A LARAVEL PROJECT 
+->composer create-project laravel/laravel .
+2. INSTALL TAILWIND DEPENDENCIES
+->npm install -D tailwindcss postcss autoprefixer
+->npx tailwindcss init -p
+3. INSTALL THE NPM
+-> npm i
+4. INSTALL THE DEPENDENCIES OF DAISYUI 
+npm i -D daisyui@latest
