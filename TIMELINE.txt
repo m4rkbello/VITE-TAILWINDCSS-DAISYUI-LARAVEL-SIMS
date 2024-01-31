@@ -1,9 +1,18 @@
 1. CREATE A LARAVEL PROJECT 
-->composer create-project laravel/laravel .
+    ->composer create-project laravel/laravel .
 2. INSTALL TAILWIND DEPENDENCIES
-->npm install -D tailwindcss postcss autoprefixer
-->npx tailwindcss init -p
+    ->npm install -D tailwindcss postcss autoprefixer
+    ->npx tailwindcss init -p
 3. INSTALL THE NPM
--> npm i
+    -> npm i
 4. INSTALL THE DEPENDENCIES OF DAISYUI 
-npm i -D daisyui@latest
+    ->npm i -D daisyui@latest
+5. INSTALL LARAVEL BREEZE
+    ->composer require laravel/breeze --dev
+    ->php artisan breeze:install
+    ->php artisan migrate 
+    ->php artisan migrate:status
+    ->php artisan migrate:rollback
+    ->php artisan migrate
+    ->npm install
+     
